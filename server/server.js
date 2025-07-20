@@ -21,7 +21,7 @@ app.use(cookieParser());
 const isProduction = process.env.NODE_ENV === 'production';
 
 const allowedOrigin = isProduction
-  ? 'https://learn-together-weld.vercel.app/'  // deployed frontend
+  ? 'https://learn-together-weld.vercel.app'  // deployed frontend
   : 'http://localhost:5173'; // local dev
 
 app.use(cors({
