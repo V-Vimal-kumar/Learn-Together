@@ -18,10 +18,17 @@ app.use(express.json());
 app.use(cookieParser());
 
 // CORS config (adjust origin in production)
+const isProduction = process.env.NODE_ENV === 'production';
+
+const allowedOrigin = isProduction
+  ? 'https://learn-together-weld.vercel.app/'  // deployed frontend
+  : 'http://localhost:5173'; // local dev
+
 app.use(cors({
-  origin: 'http://localhost:5173', 
+  origin: allowedOrigin,
   credentials: true,
 }));
+
 
 // Routes
 app.use('/api/auth', authRoutes);
