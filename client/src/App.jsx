@@ -3,7 +3,6 @@ import { useAuth } from './context/AuthContext';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
-// import Courses from './pages/Courses';
 import Profile from './pages/Profile';
 import LearningProgress from './pages/LearningProgress';
 import AdminPanel from './pages/AdminPanel';
