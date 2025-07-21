@@ -1,7 +1,7 @@
 📚 LearnTogether – A Collaborative Learning Platform
 LearnTogether is a full-stack MERN (MongoDB, Express, React, Node.js) application designed to make learning more interactive and effective by pairing learners together. It combines real-time features, course progress tracking, and a clean UI to enhance the online learning experience.
 
-🌐 Live - learn-together-weld.vercel.app
+🌐 Live - https://learn-together-weld.vercel.app/
 
 🚀 Features
 👥 User Authentication (JWT-based, secure login/register)
