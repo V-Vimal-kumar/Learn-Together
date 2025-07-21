@@ -25,7 +25,7 @@ const allowedOrigin = isProduction
   : 'http://localhost:5173'; // local dev
 
 app.use(cors({
-  origin: allowedOrigin,
+  origin: 'https://learn-together-weld.vercel.app'|| allowedOrigin,
   credentials: true,
 }));
 
